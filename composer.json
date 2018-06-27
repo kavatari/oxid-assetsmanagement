@@ -1,0 +1,32 @@
+{
+  "name": "wea/assets-management",
+  "description": "The simple way to load static files and images from an other source, e.g. cdn.",
+  "type": "oxideshop-module",
+  "version": "1.0.0",
+  "keywords": [
+    "oxid",
+    "modules",
+    "eShop"
+  ],
+  "homepage": "http://www.wea-it.com",
+  "license": [
+    "GPL-3.0-only",
+    "proprietary"
+  ],
+  "extra": {
+    "oxideshop": {
+      "blacklist-filter": [
+        "documentation/**/*.*"
+      ],
+      "target-directory": "wea/assets_management"
+    }
+  },
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "WeaItSolutions\\Oxid\\AssetsManagement\\": "../../../source/modules/wea/assets_management"
+    }
+  }
+}
