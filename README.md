@@ -1,4 +1,4 @@
-OXID Tracker by WEA IT-Solutions
+OXID Assets Management by WEA IT-Solutions
 ======
 
 ![WEA IT-Solutions OXID Assets Management](wea-it-solutions.png)
